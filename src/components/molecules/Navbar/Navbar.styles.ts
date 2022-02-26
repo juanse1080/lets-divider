@@ -12,7 +12,7 @@ const Root = styled.nav`
     lighten(theme.palette.background[theme.value], 0.05)};
   border-radius: ${({ theme }) => theme.shape.borderRadius};
   color: ${({ theme }) => darken(theme.common.white, 0.3)};
-  z-index: ${({ theme }) => theme.zIndex};
+  z-index: ${({ theme }) => theme.zIndex.appBar};
 `;
 
 export { Root };
